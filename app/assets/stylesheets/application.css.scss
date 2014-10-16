@@ -1,0 +1,118 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	background-color: #00a1ff;
+	background: -webkit-canvas(squares)
+}
+
+.col-md-12 {
+	text-align: center;
+}
+
+.logo {
+	margin-top: 1vh;
+	text-align: center;
+}
+
+.logo_spin{
+	width: 45%;
+	max-width: 180px;
+}
+
+.logorow {
+	text-align: center;
+}
+
+.logotext {
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 63px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.slogan {
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	margin-top: -15px;
+}
+.inbox {
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+
+.nickname {
+	border: 2px solid;
+	border-color: white;
+    border-radius: 25px;
+    color: gray;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+.btn-sample { 
+  color: #ffffff; 
+  background-color: #616161; 
+  border-color: #00A1FF; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #545454; 
+  border-color: #00A1FF; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #616161; 
+  border-color: #00A1FF; 
+} 
+ 
+.btn-sample .badge { 
+  color: #616161; 
+  background-color: #ffffff; 
+}
